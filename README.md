@@ -11,7 +11,7 @@
 > 2. In addition to common SQL instructions (i.e., INSERT, SELECT, UPDATE and DELETE), user can use "undo" and "redo" to query database.
 > 3. For SELECT instruction, the conditional statement of "WHERE" has no limitation on the length of input.
 > 4. Please use linked list to store data (more details are provided in the folder of Project_2).
-> PS. My implementation of undo and redo:
+> 5. My implementation of undo and redo:
 >     1) v1 ... Using STACK to store the status of database.
 >     2) v2 ... Using double linked list to store the status of database.
 
@@ -20,6 +20,6 @@
 > 2. User can use MS-DOS instructions (e.g., mkdir, rmdir, cd, del, find, copy) to create the virtual data system.
 > 3. Please use stack to implement "cd" instruction (i.e., go to next layer ... push, back to previous layer ... pop).
 > 4. Please use linked list to store data (more details are provided in the folder of Project_3).
-> PS. Bonus function is commented by default.
+> 5. Bonus function is commented by default.
 
 > ## Project_4 ... Coming Soon
