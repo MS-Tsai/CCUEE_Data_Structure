@@ -1,3 +1,13 @@
+/*********************************************************************************
+ * Author: Meng-Shiun, Tsai
+ * Program: Command Line System
+    1. Write a program to establish the Command Line System (CLS).
+    2. Parse instructions of CLS (Note that we should deal with infinite input).
+    3. Please use linked list to store data.
+    4. Please use stack to implement "cd" instruction (go: push, back: pop).
+    PS. Bonus function is commented by default.
+*********************************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -45,9 +55,11 @@ INPUT_NODE *create_input_node(char*);
 void input_enqueue(INPUT*, INPUT_NODE*);
 INPUT *get_user_input();
 
-// Deal with Bonus
-// void bonus(PATH_NODE*, INPUT*);
-// void get_absolute_path(PATH_NODE*, char[]);
+/** Deal with Bonus **/
+/********************************************
+void bonus(PATH_NODE*, INPUT*);
+void get_absolute_path(PATH_NODE*, char[]);
+********************************************/
 
 int main() {
     INPUT *input = NULL;
@@ -56,7 +68,11 @@ int main() {
     // Initialize the root node in data system
     PATH_NODE *root_node = create_path_node("DS", 1, 1);
     path_push(path, root_node);
-    // system("mkdir C:\\DS && cd C:\\DS");
+
+    /** Setup root folder for bonus function **/
+    /************************************
+    system("mkdir C:\\DS && cd C:\\DS");
+    ************************************/
 
     while(1) {
         // Show current path
@@ -95,8 +111,10 @@ int main() {
         }
         printf("\n");
 
-        // Bonus
-        // bonus(path->top, input);
+        /** Execute bonus function **/
+        /************************
+        bonus(path->top, input);
+        ************************/
 
         free(input);
     }
@@ -440,7 +458,9 @@ void show_current_path(PATH_NODE *current_path) {
         printf("DS:\\");
     }
 }
-/*
+
+/** For bonus function **/
+/*******************************************************
 void bonus(PATH_NODE *current_path, INPUT *input) {
     char absolute_path[100]="C:\\", instruction[100]="";
     INPUT_NODE *input_node = input->head;
@@ -500,7 +520,7 @@ void bonus(PATH_NODE *current_path, INPUT *input) {
         strcat(instruction, tgt_absolute_path);
 
     }
-    printf("%s\n", instruction);
+
     system(instruction);
 }
 
@@ -511,4 +531,4 @@ void get_absolute_path(PATH_NODE *current_path, char absolute_path[]) {
         strcat(absolute_path, "\\");
     }
 }
-*/
+*******************************************************/
