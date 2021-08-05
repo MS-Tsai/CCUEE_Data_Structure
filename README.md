@@ -22,4 +22,8 @@
 > 4. Please use linked list to store data (more details are provided in the folder of Project_3).
 > 5. Bonus function is commented by default.
 
-> ## Project_4 ... Coming Soon
+> ## Project_4 ... Car Queueing Problem
+> 1. Write a program to solve this problem with minimum time (should do optimization).
+> 2. Read the cars.txt and lane.txt to create the corresponding queue.
+> 3. More details are provided in the folder of Project_4.
+> 4. Bonus function is not provided here.
