@@ -1,0 +1,10 @@
+lane_1 truck_lane 5
+lane_2 car_lane 5
+lane_3 car_lane 10
+lane_4 car_lane 6
+lane_5 truck_lane 6
+lane_6 car_lane 6
+lane_7 truck_lane 60
+lane_8 car_lane 6
+lane_9 car_lane 100
+lane_10 car_lane 15
