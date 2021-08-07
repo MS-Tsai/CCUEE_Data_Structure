@@ -28,4 +28,7 @@
 > 3. More details are provided in the folder of Project_4.
 > 4. Bonus function is not provided here.
 
-> ## Project_5 ... Coming Soon
+> ## Project_5 ... Christmas Tree
+> 1. Write a program to implement Binary Search Tree (BST).
+> 2. Use AVL tree to balance the height of BST.
+> 3. More details are provided in the folder of Project_5.
