@@ -1,8 +1,8 @@
 /****************************************
  * Author: Meng-Shiun, Tsai
  * Program: Database Management System
-    1. Parse SQL instruction
-    2. Use linked list to store data
+    1. Parse SQL instruction.
+    2. Use linked list to store data.
 ****************************************/
 
 #include <stdio.h>
