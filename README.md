@@ -1,4 +1,4 @@
-﻿# CCUEE - Data Sturcture
+﻿# CCUEE - Data Sturcture (2016 fall)
  Programming language: C
  
 > ## Project_1 ... Database Management System
